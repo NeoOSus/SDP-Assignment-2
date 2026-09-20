@@ -3,7 +3,6 @@ public class WindowsFactory implements GUIfactory {
     public Button createButton() {
         return new WindowsButton();
     }
-
     @Override
     public Checkbox createCheckbox() {
         return new WindowsCheckbox();
