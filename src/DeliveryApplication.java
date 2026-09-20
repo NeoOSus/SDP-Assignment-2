@@ -6,12 +6,12 @@ public class DeliveryApplication {
     public DeliveryApplication(GUIfactory factory, Logistics logistics) {
         this.button = factory.createButton();
         this.checkbox = factory.createCheckbox();
-        this.logistics = logistics();
+        this.logistics = logistics;
     }
 
     public void run() {
         button.paint();
         checkbox.paint();
-        logistics.planDelivery("Furniture", "Aktau");
+        logistics.planDelivery("Furniture ", "Aktau");
     }
 }
