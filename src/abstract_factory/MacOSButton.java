@@ -1,3 +1,5 @@
+package abstract_factory;
+
 public class MacOSButton implements Button {
     @Override
     public void paint() {

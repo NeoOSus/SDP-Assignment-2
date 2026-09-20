@@ -1,3 +1,10 @@
+package app;
+
+import abstract_factory.Button;
+import abstract_factory.Checkbox;
+import abstract_factory.GUIfactory;
+import factory_method.Logistics;
+
 public class DeliveryApplication {
     private final Button button;
     private final Checkbox checkbox;
@@ -12,6 +19,6 @@ public class DeliveryApplication {
     public void run() {
         button.paint();
         checkbox.paint();
-        logistics.planDelivery("Furniture ", "Aktau");
+        logistics.planDelivery("furniture ", "Aktau");
     }
 }

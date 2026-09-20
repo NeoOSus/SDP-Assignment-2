@@ -1,3 +1,5 @@
+package factory_method;
+
 public class Truck implements Transport {
     @Override
     public void deliver(String cargo, String destination) {
