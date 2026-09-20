@@ -1,12 +1,6 @@
-&nbsp;
+Logistics & UI Application (Factory Method & Abstract Factory)
 
-&nbsp;
-
-Markdown
-
-\# Logistics & UI Application (Factory Method & Abstract Factory)
-
-Individual assignment for **\*\*ShP-2216 Software Design Patterns\*\*** (Astana IT University).
+Individual assignment for **ShP-2216 Software Design Patterns** (Astana IT University).
 
 \#\# Overview  
 This Java console application demonstrates the combined usage of two creational design patterns:  
